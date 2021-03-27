@@ -1,6 +1,6 @@
 package studentDataBase;
 
-public class StudentID {
+public class ID {
 	private static int id = 1000;
 	
 	public static int getID() {

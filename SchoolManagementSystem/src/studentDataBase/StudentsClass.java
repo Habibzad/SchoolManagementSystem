@@ -3,9 +3,15 @@ package studentDataBase;
 import java.util.ArrayList;
 
 public class StudentsClass {
+	String classGrade;
+	Teacher teacher;
 	ArrayList<Student> studentsList = new ArrayList<Student>();
-	//int classLimit = 5;
 	
+	public StudentsClass(String classGrade, Teacher teacher) {
+		this.classGrade = classGrade;
+		this.teacher = teacher;
+	}
+
 	public void addStudent(Student student) {
 		studentsList.add(student);
 	}
