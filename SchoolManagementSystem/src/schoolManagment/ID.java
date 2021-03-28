@@ -1,4 +1,4 @@
-package studentDataBase;
+package schoolManagment;
 
 public class ID {
 	private static int id = 1000;

@@ -1,4 +1,4 @@
-package studentDataBase;
+package schoolManagment;
 
 public class Member {
 	//Instance variables
@@ -13,16 +13,12 @@ public class Member {
 		this.id = setId(); 
 	}
 	
-	public String getfName() {
-		return fName;
+	public String getName() {
+		return fName + " " + lName;
 	}
 
 	public void setfName(String fName) {
 		this.fName = fName;
-	}
-
-	public String getlName() {
-		return lName;
 	}
 
 	public void setlName(String lName) {
@@ -42,6 +38,6 @@ public class Member {
 	
 	@Override
 	public String toString() {
-		return id + " - Name: " + fName + " " + lName;
+		return "ID: "+ id + " | Name: " + fName + " " + lName;
 	}
 }
